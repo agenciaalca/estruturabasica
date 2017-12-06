@@ -1,0 +1,68 @@
+@font-face {
+    /* titulo */
+    font-family: champagne;
+    src: url('../fonts/Champagne_&_Limousines_Bold.ttf');
+}
+
+/* COR PADRÃO */
+:root{
+    --cor: #0b59a3;  
+}
+:root{
+    --background: #000;
+}
+
+.mensagem-alerta{
+    padding: 20px 0;
+}
+
+/* GERAL */
+section{
+    margin: 30px 0;
+}
+
+/********************
+    FOOTER 
+********************/
+footer{
+    padding: 5px;
+    bottom: 0;
+    background-color: var(--background);
+}
+footer .redes-sociais{
+    margin: 30px;
+    text-align: center;
+}
+
+footer .redes-sociais a{
+    text-align: center;
+    padding: 0 20px;
+}
+
+footer .redes-sociais i{
+    color: var(--cor);
+}
+
+footer .redes-sociais i:hover{
+    opacity: 0.7;
+}
+
+footer .copyright{
+    position:relative;
+    font-weight:300;
+    margin:0 auto;
+    padding:5px 0 5px;
+    text-align:center;
+    font-size:1.1em;
+    line-height:36px;
+    color:#fff;
+}
+
+footer .copyright a{
+    color:#fff;
+}
+
+footer .copyright a:hover{ 
+    color: #00d287;
+    font-weight: 700;
+}
